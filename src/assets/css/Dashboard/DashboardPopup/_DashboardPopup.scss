@@ -1,0 +1,128 @@
+.dashboard-popup {
+    display: none;
+    background: #1e202a;
+    padding: 20px;
+    border-radius: 30px;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 40%;
+    font-family: Poppins;
+    line-height: 30px;
+    .popup-logo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 35%;
+        align-items: center;
+        .close-btn {
+            width: 34px;
+            height: 34px;
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            justify-self: flex-end;
+        }
+    }
+    .heading {
+        font-style: SemiBold;
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+    .user {
+        font-style: Medium;
+        opacity: 0.7; 
+        line-height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: left;
+        .user-image {
+            margin: 0 10px;
+            width: 34px;
+            height: 34px;
+        }
+    }
+    .plvi-target {
+        opacity: 0.7;
+    }
+    .xrrt-token {
+        opacity: 0.7;
+    }
+    .capital {
+        opacity: 0.7;
+    }
+    .time-left {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    }
+    .percent {
+        background: #000;
+        width: 100%;
+        border-radius: 8px;
+        :nth-child(1) {
+            background: #C7880D;
+            border: none;
+            padding: 20px 40px;
+            width: 50%;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        :nth-child(2) {
+            background: #000;
+            border: none;
+            width: 50%;
+            color: #000;
+            border-radius: 0 8px 8px 0;
+        }
+    }
+    .status {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;  
+        margin-top: 20px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        button {
+            background: none;
+            border: 0.5px solid #C7880D;
+            border-radius: 22px;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+
+    .share {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 50px;
+        .share-icon-box {
+            width: 46px;
+            height: 46px;
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+        }
+    }
+    
+}

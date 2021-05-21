@@ -1,0 +1,14 @@
+.accordion_content {
+    background: none;
+    color: #fff;
+    margin-right: 10%;
+    .heading {
+        font-weight: 900;
+        font-size: 30px;
+        width: min-content;
+        line-height: 50px;
+    }
+    .content {
+        letter-spacing: 1px;
+    }
+}

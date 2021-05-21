@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "AccordionContent.scss"
+    ],
+    "names": [],
+    "file": "AccordionContent.css"
+}

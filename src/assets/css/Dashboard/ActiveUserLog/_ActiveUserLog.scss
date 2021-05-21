@@ -1,0 +1,51 @@
+.active_user_log_table {
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 20px;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        .duration-options {
+            background: none;
+            width: 100px;
+            .css-yk16xz-control {
+                background: none;
+                color: #fff;
+                border-radius: 10px;
+                .css-1uccc91-singleValue {
+                    color: #fff;
+                }
+            }
+            .css-1okebmr-indicatorSeparator {
+                display: none;
+            }
+        }
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        td, th {
+            text-align: left;
+            padding: 20px 0 20px 20px;
+        }
+        th:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+        th:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+        th {
+            background: #4e4e4e;
+        }
+        tr {
+            border-bottom: 2px solid #202333;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+}

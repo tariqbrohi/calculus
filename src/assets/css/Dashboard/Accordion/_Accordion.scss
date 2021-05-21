@@ -1,0 +1,41 @@
+.accordion {
+    border-radius: 8px;
+    border: 1px solid #020616;
+    background: #020516;
+    color: #fff;
+    font-family: 'Poppins';
+    .accord {
+        border: none;
+        width: 100%;
+        text-align: left;
+        background: none;
+        outline: none;
+        color: #fff;
+        padding: 20px 40px;
+        margin: 0;
+        font-size: 20px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.4px;
+        transition: 0.4s;
+    } 
+    .pannel {
+        padding: 20px 40px;
+        display: none;
+        transition: 0.4s;
+    }
+    .ative {
+        display: block;
+    }
+    .accord:after {
+        content: '\005E';
+        float: right;
+      }
+      .active:after {
+        content: "\02C5";
+      }
+
+}

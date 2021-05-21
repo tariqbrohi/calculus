@@ -1,0 +1,93 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 100px;
+}
+
+.header .logo img {
+  width: 100px;
+  height: 70px;
+}
+
+.header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav ul li {
+  outline: none;
+  list-style-type: none;
+}
+
+.header .nav ul li a {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #fff;
+  display: block;
+  padding: 8px 90px 8px 0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header .nav ul .nav-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav ul .nav-btns li {
+  height: 100%;
+}
+
+.header .nav ul .nav-btns button {
+  height: 100%;
+  padding: 10px 40px;
+  background: none;
+  border: 2px solid #c7880d;
+  border-radius: 10px;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header .nav ul .nav-btns .login-btn {
+  background: #c7880d;
+}
+
+.header .nav ul .nav-btns .signup-btn {
+  margin-right: 0;
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,13 @@
+@import '../css/Dashboard/index';
+@import '../css/Dashboard/Header/Header';
+@import './Dashboard/Footer/Footer';
+@import '../css/Dashboard/MainSlider/MainSlider';
+@import './Dashboard/Statistics/Statistics';
+@import './Dashboard/ActiveUserLog/ActiveUserLog';
+@import './Dashboard/Note/Note';
+@import './Dashboard/Accordion/Accordion';
+@import './Dashboard/AccordionContent/AccordionContent';
+@import './Dashboard/DashboardPopup/DashboardPopup';
+body {
+    background: rgba(0, 0, 0, 0.95);
+}
